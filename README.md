@@ -1,4 +1,4 @@
-# [Jinja2 Template - Material Dashboard PRO](https://theme-jinja2-material-dashboard-pro.appseed.us/)
+# [Jinja Template - Material Dashboard PRO](https://theme-jinja2-material-dashboard-pro.appseed.us/)
 
 > Template Theme provided by [AppSeed](https://appseed.us) - Features:
 
@@ -31,7 +31,7 @@ All components are built to fit perfectly with each other while aligning to the 
 
 <br />
 
-![Jinja2 Theme - Material Dashboard PRO - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/theme-jinja2-material-dashboard-pro/master/media/theme-jinja2-material-dashboard-pro-screen.png)
+![Jinja Template - Material Dashboard PRO.](https://raw.githubusercontent.com/app-generator/theme-jinja2-material-dashboard-pro/master/media/theme-jinja2-material-dashboard-pro-screen.png)
 
 <br />
 
@@ -192,4 +192,4 @@ Visit `http://localhost:8001` in your browser. The app should be up & running.
 <br />
 
 ---
-[Jinja2 Template - Material Dashboard PRO](https://theme-jinja2-material-dashboard-pro.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
+[Jinja Template - Material Dashboard PRO](https://theme-jinja2-material-dashboard-pro.appseed.us/) - Provided by **AppSeed** [Web App Generator](https://appseed.us/app-generator).
