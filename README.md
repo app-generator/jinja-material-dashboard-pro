@@ -18,16 +18,16 @@
 
 <br />
 
-## UI Kit - [Material Dashboard PRO](https://www.creative-tim.com/product/material-dashboard-pro/?ref=appseed)
+## UI Kit - [Material Dashboard PRO](https://www.creative-tim.com/product/material-dashboard-pro/?AFFILIATE=128200)
 
-*Vendor Notes* - **[Material Dashboard PRO](https://www.creative-tim.com/product/material-dashboard-pro/?ref=appseed)** is a Premium Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design.
+*Vendor Notes* - **[Material Dashboard PRO](https://www.creative-tim.com/product/material-dashboard-pro/?AFFILIATE=128200)** is a Premium Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design.
 It is based on the popular Bootstrap 4 framework and comes packed with multiple third-party plugins.
 All components are built to fit perfectly with each other while aligning to the material concepts.
 
 > Links
 
-- [Material Dashboard PRO](https://www.creative-tim.com/product/material-dashboard-pro/?ref=appseed) - product page
-- [Material Dashboard PRO Docs](https://demos.creative-tim.com/material-dashboard-pro/docs/2.1/getting-started/introduction.html)
+- [Material Dashboard PRO](https://www.creative-tim.com/product/material-dashboard-pro/?AFFILIATE=128200) - product page
+- [Material Dashboard PRO Docs](https://demos.creative-tim.com/material-dashboard-pro/docs/2.1/getting-started/introduction.html?AFFILIATE=128200)
 
 <br />
 
