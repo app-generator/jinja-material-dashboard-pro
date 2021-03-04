@@ -11,7 +11,7 @@
 
 > Links
 
-- [Jinja Material Dashboard PRO - DEMO](https://jinja-material-dashboard-pro.appseed-srv1.com) - starter in action
+- [Jinja Material Dashboard](https://jinja-material-dashboard-pro.appseed-srv1.com) PRO - starter in action
 - More [Jinja Templates](https://appseed.us/jinja-template) provided by AppSeed
 
 <br />
