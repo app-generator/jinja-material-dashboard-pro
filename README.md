@@ -22,11 +22,6 @@ Material Dashboard PRO is a Premium Material Bootstrap 4 Admin with a fresh, new
 It is based on the popular Bootstrap 4 framework and comes packed with multiple third-party plugins.
 All components are built to fit perfectly with each other while aligning to the material concepts.
 
-> Links
-
-- [Material Dashboard PRO](https://www.creative-tim.com/product/material-dashboard-pro/?ref=appseed) - product page
-- [Material Dashboard PRO Docs](https://demos.creative-tim.com/material-dashboard-pro/docs/2.1/getting-started/introduction.html)
-
 <br />
 
 ![Jinja2 Theme - Material Dashboard PRO - Template project provided by AppSeed.](https://raw.githubusercontent.com/app-generator/jinja-material-dashboard-pro/master/media/theme-jinja2-material-dashboard-pro-screen.png)
