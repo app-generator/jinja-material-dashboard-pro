@@ -2,7 +2,9 @@
 
 > Template Theme provided by [AppSeed](https://appseed.us) - Features:
 
-- UI Kit: **Material Dashboard PRO** by **Creative-Tim**
+- Up-to-date [dependencies](./requirements.txt): **Flask 2.0.1**
+- [SCSS compilation](#recompile-css) via **Gulp**
+- UI Kit: **Material Kit PRO** by **Creative-Tim**
 - Render Engine: Flask / [Jinja2](https://jinja.palletsprojects.com/)
 - **Commercial License**: [Personal](https://github.com/app-generator/license-personal) / [Developer](https://github.com/app-generator/license-developer)
 - 24/7 Live Support via [Discord](https://discord.gg/fZC6hup).
@@ -11,7 +13,7 @@
 
 > Links
 
-- [Jinja Material Dashboard](https://jinja-material-dashboard-pro.appseed-srv1.com) PRO - starter in action
+- [Jinja Material Dashboard PRO - DEMO](https://jinja-material-dashboard-pro.appseed-srv1.com) - starter in action
 - More [Jinja Templates](https://appseed.us/jinja-template) provided by AppSeed
 
 <br />
@@ -21,6 +23,11 @@
 Material Dashboard PRO is a Premium Material Bootstrap 4 Admin with a fresh, new design inspired by Google's Material Design.
 It is based on the popular Bootstrap 4 framework and comes packed with multiple third-party plugins.
 All components are built to fit perfectly with each other while aligning to the material concepts.
+
+> Links
+
+- [Material Dashboard PRO](https://www.creative-tim.com/product/material-dashboard-pro/?AFFILIATE=128200) - product page
+- [Material Dashboard PRO Docs](https://demos.creative-tim.com/material-dashboard-pro/docs/2.1/getting-started/introduction.html)
 
 <br />
 
@@ -73,7 +80,6 @@ The project has a simple structure, represented as bellow:
 ```bash
 < PROJECT ROOT >
    |
-   |-- app/__init__.py
    |-- app/
    |    |-- static/
    |    |    |-- <css, JS, images>         # CSS files, Javascripts files
@@ -92,19 +98,72 @@ The project has a simple structure, represented as bellow:
    |    |    |    |-- base.html            # Used by common pages like index, UI
    |    |    |    |-- base-fullscreen.html # Used by auth pages (login, register)
    |    |    |
-   |    |  index.html                      # The default page
-   |    |  login.html                      # Auth Login Page
-   |    |  register.html                   # Auth Registration Page
-   |    |  page-404.html                   # Error 404 page (page not found)
-   |    |  page-500.html                   # Error 500 page (server error)
-   |    |    *.html                        # All other pages provided by the UI Kit
+   |    |    |-- accounts/                 # Auth Pages (login, register)
+   |    |    |    |
+   |    |    |    |-- login.html           # Use layout `base-fullscreen.html`
+   |    |    |    |-- register.html        # Use layout `base-fullscreen.html`  
+   |    |    |
+   |    |    |-- home/                      # UI Kit Pages
+   |    |         |-- index.html            # Index page
+   |    |         |-- 404-page.html         # 404 page
+   |    |         |-- *.html                # All other pages
+   |    |
+   |   views.py                             # Application Routes 
+   |
+   |-- Dockerfile                           # Deployment
+   |-- docker-compose.yml                   # Deployment
+   |-- gunicorn-cfg.py                      # Deployment   
+   |-- nginx                                # Deployment
+   |    |-- appseed-app.conf                # Deployment 
    |
    |-- requirements.txt
-   |
    |-- run.py
    |
    |-- ************************************************************************
 ```
+
+<br />
+
+## Recompile CSS
+
+To recompile SCSS files, follow this setup:
+
+<br />
+
+**Step #1** - Install tools
+
+- [NodeJS](https://nodejs.org/en/) 12.x or higher
+- [Gulp](https://gulpjs.com/) - globally 
+    - `npm install -g gulp-cli`
+- [Yarn](https://yarnpkg.com/) (optional) 
+
+<br />
+
+**Step #2** - Change the working directory to `assets` folder
+
+```bash
+$ cd app/static/assets
+```
+
+<br />
+
+**Step #3** - Install modules (this will create a classic `node_modules` directory)
+
+```bash
+$ npm install
+// OR
+$ yarn
+```
+
+<br />
+
+**Step #4** - Edit & Recompile SCSS files 
+
+```bash
+$ gulp scss
+```
+
+The generated file is saved in `static/assets/css` directory.
 
 <br />
 
